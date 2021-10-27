@@ -1,27 +1,40 @@
 **[JavaInterview](https://github.com/OUYANGSIHAI/JavaInterview)** 是本人在备战春招及这几年学习的知识沉淀，这里面有很多都是自己的原创文章，同时，也有很多是本在备战春招的过程中觉得对面试特别有帮助的文章，**[JavaInterview](https://github.com/OUYANGSIHAI/JavaInterview)** 不一定可以帮助你进入到 BAT 等大厂，但是，如果你认真研究，仔细思考，我相信你也可以跟我一样幸运的进入到大厂。
 
-本人经常在 CSDN 写博客，累计**原创博客 400+**，拥有**访问量160W**，目前是 **CSDN 博客专家**，春招目前拿到了大厂offer。
+本人经常在 CSDN 写博客，累计**原创博客 400+**，拥有**访问量251W+**，**CSDN 博客专家**，CSDN博客地址：[https://sihai.blog.csdn.net](https://sihai.blog.csdn.net)，春招目前拿到了大厂offer。
 
 如果觉得有帮助，给个 **star** 好不好，哈哈（目前还不是很完善，后面会一一补充）。
 
-**JavaInterview 最新地址**：https://github.com/OUYANGSIHAI/JavaInterview
-
 **一起冲！！！**
 
-#### Java面试思维导图预警
+👉 如果你不知道该学习什么的话，请看 [Java 学习线路图是怎样的？](https://zhuanlan.zhihu.com/p/392712685) （原创不易，欢迎点赞），这是 2021 最新最完善的 Java 学习路线！
 
-这里再分享一些我总结的**Java面试思维导图**，我靠这些导图拿到了一线互联网公司的offer，先来瞧瞧。
+👉 Java学习资源汇总（个人总结）
+
+- Java基础到Java实战全套学习视频教程，包括多个企业级实战项目：https://urlify.cn/YFzABz  密码: pi95 
+
+- 面试算法资料，这是总结的算法资料，学完基本可以应付80%大厂：https://urlify.cn/N7vIj2  密码: ijoi
+
+- 大厂面试资料，一年时间总结，覆盖Java所有技术点：https://urlify.cn/Vzmeqy  密码: j9t2
+
+- 面试思维导图，手打总结： https://urlify.cn/vUNF7z  密码: adbo
+
+👉 Java各种电子书：如果你需要各种电子书，可以移步这个仓库 [Java电子书合集](https://github.com/hello-go-maker/cs-books)
+
+👉 Java面试思维导图（手打）
+
+👉 这里再分享一些我总结的**Java面试思维导图**，我靠这些导图拿到了一线互联网公司的offer，预览在下方，先来瞧瞧。
 
 ![](http://image.ouyangsihai.cn/FtJ3PbBRdNSa1NaUr96JmUq24_yS)
-![](http://image.ouyangsihai.cn/FsTv2aMsGcv8M9Rsyx6POBOGKY1g)
 
 
-**划重点**：想要`导图源文件`，更多`Java面试思维导图`，请关注我的公众号 **程序员的技术圈子**，`微信扫描下面二维码`，回复：**思维导图**，获取思维导图，绿色通道关注福利，等你拿。
+**划重点**：更多`Java面试思维导图`，请关注我的公众号 **程序员的技术圈子**，`微信扫描下面二维码`，回复：**思维导图**，获取思维导图，绿色通道关注福利，等你拿。
 
-![](http://image.ouyangsihai.cn/FlL0VJf1Q4gCfrc8RhL-SL-xiiXo)
+![](http://image.ouyangsihai.cn/FuRA5sT9JUaVbx-YD-Acor04AWhF)
+
+<!-- ![](http://image.ouyangsihai.cn/FlL0VJf1Q4gCfrc8RhL-SL-xiiXo) -->
 
 <a href="https://github.com/OUYANGSIHAI/JavaInterview" target="_blank">
-	<div align="center"> <img src="http://image.ouyangsihai.cn/FvyAZ0ZEHmgrETnvhsJDHioiqs9e" width = 500 height = 300 /> </div>
+	<div align="center"> <img src="http://image.ouyangsihai.cn/FvyAZ0ZEHmgrETnvhsJDHioiqs9e" width = 400 height = 200 /> </div>
 </a>
 
 <div align="center">
@@ -35,78 +48,102 @@
 - [面试知识点](#面试知识点)
 - [公司面经](#公司面经)
 - [Java](#java)
-  * [基础](#基础)
-  * [容器（包括juc）](#容器包括juc)
-  * [并发](#并发)
-  * [JVM](#jvm)
-  * [Java8](#java8)
+  - [基础](#基础)
+  - [容器（包括juc）](#容器包括juc)
+    - [基础容器](#基础容器)
+    - [阻塞容器](#阻塞容器)
+  - [并发](#并发)
+  - [JVM](#jvm)
+  - [Java8](#java8)
 - [计算机网络](#计算机网络)
 - [计算机操作系统](#计算机操作系统)
 - [Linux](#linux)
 - [数据结构与算法](#数据结构与算法)
-  * [数据结构](#数据结构)
-  * [算法](#算法)
+  - [数据结构](#数据结构)
+  - [算法](#算法)
 - [数据库](#数据库)
-  * [MySQL](#mysql)
-    + [mysql（优化思路）](#mysql优化思路)
+  - [MySQL](#mysql)
+    - [MySQL（优化思路）](#mysql优化思路)
 - [系统设计](#系统设计)
-  * [秒杀系统相关](#秒杀系统相关)
-  * [前后端分离](#前后端分离)
-  * [单点登录](#单点登录)
-  * [常用框架](#常用框架)
-    + [Spring](#Spring)
-    + [SpringBoot](#springboot)
+  - [秒杀系统相关](#秒杀系统相关)
+  - [前后端分离](#前后端分离)
+  - [单点登录](#单点登录)
+  - [常用框架](#常用框架)
+    - [Spring](#spring)
+    - [SpringBoot](#springboot)
 - [分布式](#分布式)
-  * [dubbo](#dubbo)
-  * [zookeeper](#zookeeper)
-  * [RocketMQ](#rocketmq)
-  * [RabbitMQ](#rabbitmq)
-  * [kafka](#kafka)
-  * [消息中间件](#消息中间件)
-  * [redis](#redis)
-  * [分布式系统](#分布式系统)
-- [线上问题调优（虚拟机，tomcat）](#线上问题调优虚拟机，tomcat)
+  - [dubbo](#dubbo)
+  - [zookeeper](#zookeeper)
+  - [RocketMQ](#rocketmq)
+  - [RabbitMQ](#rabbitmq)
+  - [kafka](#kafka)
+  - [消息中间件](#消息中间件)
+  - [redis](#redis)
+  - [分布式系统](#分布式系统)
+- [线上问题调优（虚拟机，tomcat）](#线上问题调优虚拟机tomcat)
 - [面试指南](#面试指南)
 - [工具](#工具)
-  * [Git](#git)
-  * [Docker](#docker)
+  - [Git](#git)
+  - [Docker](#docker)
 - [其他](#其他)
-  * [权限控制（设计、shiro）](#权限控制设计、shiro)
-- [Java学习资源](#Java学习资源)
-- [Java书籍推荐](#Java书籍推荐)
+  - [权限控制（设计、shiro）](#权限控制设计shiro)
+- [Java学习资源](#java学习资源)
+- [Java书籍推荐](#java书籍推荐)
 - [实战项目推荐](#实战项目推荐)
 - [程序人生](#程序人生)
 - [说明](#说明)
-  * [JavaInterview介绍](#JavaInterview介绍)
-  * [关于转载](#关于转载)
-  * [如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
-  * [为什么要做这个开源文档？](#为什么要做这个开源文档？)
-  * [投稿](#投稿)
-  * [联系我](#联系我)
-  * [公众号](#公众号)
+  - [JavaInterview介绍](#javainterview介绍)
+  - [关于转载](#关于转载)
+  - [如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
+  - [为什么要做这个开源文档？](#为什么要做这个开源文档)
+  - [投稿](#投稿)
+  - [联系我](#联系我)
+  - [公众号](#公众号)
 
 
 ## 项目准备
 
-- [如何进行项目的自我介绍呢？](docs/interview/自我介绍和项目介绍.md)
-
-- [项目需要准备必备知识及方法](docs/project/秒杀项目总结.md) 
+- [我的个人项目介绍模板](docs/interview/自我介绍和项目介绍.md)
+- [本人真实经历：面试了20家大厂之后，发现这样介绍项目经验，显得项目很牛逼！](https://mp.weixin.qq.com/s/JBtCRaw9Nabk9aIImjkFIQ)
+- [项目必备知识及解决方案](docs/project/秒杀项目总结.md) 
 
 ## 面试知识点
 
-- [各公司面试知识点汇总](docs/interview-experience/面试常见知识.md) 
-- [面试常见问题分类汇总](docs/interview-experience/面试常见问题分类汇总.md) 
+- [各大公司面试知识点汇总](docs/interview-experience/各大公司面经.md) 
+- [Java后端面试常见问题分类汇总（高频考点）](docs/interview-experience/面试常见问题分类汇总.md) 
 
 
 ## 公司面经
 
 - [2020年各公司面试经验汇总](docs/interview-experience/各大公司面经.md) 
+- [最新！！招银网络科技Java面经，整理附答案](https://mp.weixin.qq.com/s/HAUOH-EYS_3Ho2XxYkTGXA)
+- [拿了 30K 的 offer！](https://mp.weixin.qq.com/s/R4gZ8IuskxgxA1SZwfCOoA)
+- [重磅面经！！四面美团最终拿到了 offer](https://mp.weixin.qq.com/s/P1mDcH5hEXqNp2Jpz5Qjmg)
+- [十面阿里，七面头条](https://mp.weixin.qq.com/s/FErQnLvYnuZxiaDkYWPO5A)
 
 ## Java
 
 ### 基础
 
-- [Java基础系列文章](https://mp.weixin.qq.com/mp/homepage?__biz=MzI2OTQ4OTQ1NQ==&hid=1&sn=c455e51f87eaa9c12d6b45e0e4d33960&scene=1&devicetype=iOS13.3.1&version=17000c2b&lang=zh_CN&nettype=WIFI&ascene=7&session_us=gh_2bfc34fbf760&fontScale=100&wx_header=1)
+这几篇文章虽然是基础，但是确实深入理解基础，如果你能很好的理解这些基础，那么对于Java基础面试题也是没有什么问题的，背面试题不如理解原理，很重要。
+
+- [Java基础思维导图](http://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483823&idx=1&sn=4588a874055e8ca54f2bbe1ede12cff4&scene=19#wechat_redirect)
+- [Java基础(一) 深入解析基本类型](http://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483948&idx=1&sn=cb0ae3d82a1629e3a0538b6f31e2473b&scene=19#wechat_redirect)
+- [Java基础(二) 自增自减与贪心规则](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483951&idx=1&sn=af5b54ed2e26d975f96643d9dfd66fab&scene=19#wechat_redirect)
+- [Java基础(三) 加强型for循环与Iterator](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483952&idx=1&sn=43130fdf815970e0e12347d057c6b24f&scene=19#wechat_redirect)
+- [Java基础(四) java运算顺序的深入解析](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483955&idx=1&sn=abfb3e8ac31cb84bb78216d9c953abc0&scene=19#wechat_redirect)
+- [Java基础(五) String性质深入解析](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483956&idx=1&sn=1c19164967621fa5449a7830d006c8f9&scene=19#wechat_redirect)
+- [Java基础(六) switch语句的深入解析](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247483999&idx=1&sn=092ad983f87798360ef33b1485f3201b&scene=19#wechat_redirect)
+- [Java基础(七) 深入解析java四种访问权限](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484000&idx=1&sn=0b188c70ac54c65a0419ab0d5da14af4&scene=19#wechat_redirect)
+- [Java基础(八) 深入解析常量池与装拆箱机制](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484002&idx=1&sn=a1d9ec01c91537aca444408c989f5a50&scene=19#wechat_redirect)
+- [Java基础(九) 可变参数列表介绍](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484003&idx=1&sn=84366ed430c332d4b8e2b2d6b54280f4&scene=19#wechat_redirect)
+- [Java基础(十) 深入理解数组类型](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484004&idx=1&sn=9c58b6948f05bbeffea3552fec9ee9a6&scene=19#wechat_redirect)
+- [Java基础(十一) 枚举类型](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484005&idx=1&sn=5aaec133dca189fcabc86defcd54c5b8&scene=19#wechat_redirect)
+- [类与接口（二）java的四种内部类详解](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484075&idx=1&sn=e0fd37cc5c1eb5fb359ed3dc9c15af66&scene=19#wechat_redirect)
+- [类与接口（三）java中的接口与嵌套接口](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484076&idx=1&sn=1903edbc469b2660e51e1154a8b63a27&scene=19#wechat_redirect)
+- [类与接口（四）方法重载解析](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484078&idx=1&sn=db5f231dc64974057d4ee29af1649e8b&scene=19#wechat_redirect)
+- [类与接口（五）java多态、方法重写、隐藏](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247484083&idx=1&sn=d5b3d1daca2eb4e8d9583d75e6f6ad6c&scene=19#wechat_redirect)
+
 
 ### 容器（包括juc）
 
@@ -125,7 +162,6 @@
 - ArrayBlockingQueue源码分析及真实大厂面试题精讲
 - LinkedBlockingQueue源码分析及真实大厂面试题精讲
 - PriorityBlockingQueue源码分析及真实大厂面试题精讲
-
 
 ### 并发
 
@@ -148,6 +184,7 @@
 - [深入理解Java虚拟机-你了解GC算法原理吗](https://blog.ouyangsihai.cn/shen-ru-li-jie-java-xu-ni-ji-ni-liao-jie-gc-suan-fa-yuan-li-ma.html)
 - [几个面试官常问的垃圾回收器，下次面试就拿这篇文章怼回去！](https://blog.ouyangsihai.cn/shen-ru-li-jie-java-xu-ni-ji-chang-jian-de-la-ji-hui-shou-qi.html)
 - [面试官100%会严刑拷打的 CMS 垃圾回收器，下次面试就拿这篇文章怼回去！](https://blog.ouyangsihai.cn/shen-ru-li-jie-java-xu-ni-ji-cms-la-ji-hui-shou-qi.html)
+- [JVM 面试题 87 题详解](https://sihai.blog.csdn.net/article/details/118737581)
 
 
 ### Java8 
@@ -161,8 +198,10 @@
 ## 计算机网络
 
 - [http面试问题全解析](docs/network/http面试问题全解析.md)
+- [计算机网络常见面试题](https://sihai.blog.csdn.net/article/details/118737663)
 - 关于tcp、udp网络模型的问题，这篇文章告诉你
 - http、https还不了解，别慌！
+- 面试官问我计算机网络的问题，我一个问题给他讲半个小时
 
 ## 计算机操作系统
 
@@ -171,6 +210,8 @@
 ## Linux
 
 - [java工程师linux命令，这篇文章就够了](https://blog.ouyangsihai.cn/java-gong-cheng-shi-linux-ming-ling-zhe-pian-wen-zhang-jiu-gou-liao.html)
+- [linux常见面试题（基础版）](https://sihai.blog.csdn.net/article/details/118737736)
+- [linux高频面试题](docs/operating-system/linux高频面试题.md)
 - 常问的几个Linux面试题，通通解决它
 
 ## 数据结构与算法
@@ -180,8 +221,11 @@
 - 跳表这种数据结构，你真的清楚吗，面试官可能会问这些问题！
 - 红黑树你了解多少，不会肯定会被面试官怼坏
 - [B树，B+树，你了解多少，面试官问那些问题？](https://blog.ouyangsihai.cn/mian-shi-guan-wen-ni-b-shu-he-b-shu-jiu-ba-zhe-pian-wen-zhang-diu-gei-ta.html)
+- [这篇文章带你彻底理解红黑树](https://sihai.blog.csdn.net/article/details/118738496)
+- 二叉树、二叉搜索树、二叉平衡树、红黑树、B树、B+树
 
 ### 算法
+
 
 - [2020年最新算法面试真题汇总](docs/dataStructures-algorithms/算法面试真题汇总.md)  
 - [2020年最新算法题型难点总结](docs/dataStructures-algorithms/算法题目难点题目总结.md) 
@@ -213,6 +257,7 @@
 
 - [MySQL高频面试题](https://mp.weixin.qq.com/s/KFCkvfF84l6Eu43CH_TmXA)
 - [MySQL查询优化过程](https://mp.weixin.qq.com/s/jtuLb8uAIHJNvNpwcIZfpA)
+- MySQL面试官会怎么死怼你呢，我告诉你回怼他
 
 
 ## 系统设计
@@ -340,13 +385,7 @@
 
 ## Java学习资源
 
-- [2020年Java学习资源，你想要的都在这里了](https://mp.weixin.qq.com/s/wLjjy7D57s3UOv4sr8Lxkg)
-
-**截图**
-
-![](http://image.ouyangsihai.cn/Fl0FhkpxLNw0_4-pe8_f8MwAyHzc)
-![](http://image.ouyangsihai.cn/Fp3EtjR1FbKPJG2uPdGpMiFjHBNR)
-![](http://image.ouyangsihai.cn/FqEKc4i6lsfLCRomFAIksG_rgveY)
+- [2021 Java 1000G 最新学习资源大汇总](https://mp.weixin.qq.com/s/I0jimqziHqRNaIy0kXRCnw)
 
 
 ## Java书籍推荐
@@ -404,6 +443,8 @@
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，关注我的公众号 **程序员的技术圈子**。
 
-![](http://image.ouyangsihai.cn/FlL0VJf1Q4gCfrc8RhL-SL-xiiXo)
+![](http://image.ouyangsihai.cn/FuRA5sT9JUaVbx-YD-Acor04AWhF)
+
+<!-- ![](http://image.ouyangsihai.cn/FlL0VJf1Q4gCfrc8RhL-SL-xiiXo) -->
 
 
